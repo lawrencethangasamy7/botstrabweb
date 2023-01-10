@@ -1,0 +1,179 @@
+	*{
+	margin:0;
+	padding:0;
+}
+
+.navbar-collapse ul li a:hover{
+		color:#c6af6e !important;
+		}
+.navbar-collapse ul li a{
+		color:white !important;
+		}		
+#tree{
+	background-color:#2e333c;
+}
+.navhead{
+	top:100;
+	left:0 !important;
+	background-color:unset!important;
+}
+.according{
+	height:90vh;
+}
+.lifestyle{
+	top:calc(50% - 100px);
+    text-align:left !important;
+	
+}
+
+.card1{
+	    display: flex;
+    align-items: start;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+}
+.headr{
+	color:#c8b16f;
+}
+.button{
+	color:#c8b16f;
+}
+.image{
+		background-image:url(img/serv-1.jpg);
+}
+.image1{
+		background-image:url(img/serv-2.jpg);
+}
+.image2{
+		background-image:url(img/serv-3.jpg);
+}
+.design h3{
+	color:#c8b16f;
+}
+.icon i{
+		color:#c8b16f;
+}
+
+.fourimg:hover .oppct{
+	opacity:1;
+}
+.fourimg:hover .fourim img{
+		transform:scale(1.1);
+		transition:all 0.5s linear;
+}
+.fourimg{
+	position:relative;
+		overflow:hidden;
+}
+.oppct{
+	position:absolute;
+	top:5%;
+	left:5%;
+	right:5%;
+	bottom:5%;
+	background-color:#0202029e;
+	color:white;
+	opacity:0;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	transition:all 0.5s linear;
+	border:1px solid #c8b16f ;
+}
+#watsonsection{
+	background-color:#2e333c;
+}
+.lorem{
+	
+	padding-top:100px;
+padding-bottom:100px;	
+}
+.lorem p{
+	color:#777;
+}
+.fomous{
+	padding:25px;
+border-top:1px solid #c8b16f ;
+border-bottom:1px solid #c8b16f ;
+border-left:1px solid #c8b16f ;
+}
+.source{
+	color:#c8b16f;
+}
+.afterline{
+	position:relative;
+}
+.afterline::after{
+	content:"";
+	width:100px;
+	position:absolute;
+	height:1px;
+	bottom:0;
+	left:20%;
+	background-color:#c8b16f;
+}
+.watsonimg img{
+	border-radius:50%;
+}
+.headwatson{
+		display:flex;
+	gap:5%;
+}
+.watson h5{
+	padding-top:25px;
+	color:#c8b16f;	
+}
+#five{
+	margin-top:60px;
+	margin-bottom:60px;
+}
+.img{
+	width:45%;
+
+}
+.projectfive{
+	padding-top:50px;
+	padding-bottom:50px;
+	background-color:#2e333c;
+}
+#six{
+	margin-top:80px;
+	margin-bottom:80px;
+}
+#saven{
+	margin-top:80px;
+}
+.footer{
+	background-color:#2e333c;
+}
+.name{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.btn-gold-outline:hover{
+	background-color:#c8b16f;
+	color:#fff !important;
+	border:1px solid #c8b16f;
+}
+.btn-gold-outline{
+	color: #fff !important;
+    border: 1px solid #c8b16f !important;
+}
+
+
+@media(max-width:320px){
+	.residence{
+		font-size:50px;
+	}
+	.design{
+		top:0 !important;
+		left:0 !important;
+	}
+	
+}
+
+
+
+
